@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Timetable JSON Editor</title>
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --panel: #121821;
+      --muted: #9fb0c3;
+      --text: #eaf2ff;
+      --accent: #60a5fa;
+      --danger: #ef4444;
+      --ok: #22c55e;
+      --border: #1f2937;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--text);
+      display: grid; grid-template-columns: 320px 1fr; min-height: 100vh;
+    }
+    aside {
+      background: var(--panel); border-right: 1px solid var(--border); padding: 12px; overflow: auto;
+    }
+    main { padding: 16px; overflow: auto; }
+    h1 { margin: 0 0 12px; font-size: 18px; }
+    h2 { margin: 16px 0 8px; font-size: 16px; color: var(--muted); }
+    .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .btn {
+      background: #1e293b; border: 1px solid var(--border); color: var(--text);
+      padding: 6px 10px; border-radius: 10px; cursor: pointer;
+    }
+    .btn:hover { border-color: var(--accent); }
+    .btn.danger { border-color: var(--danger); color: #fecaca; }
+    .btn.ok { border-color: var(--ok); color: #bbf7d0; }
+    input[type="text"], input[type="date"], select, textarea {
+      background: #0f172a; border: 1px solid var(--border); color: var(--text);
+      padding: 6px 8px; border-radius: 8px; width: 100%;
+    }
+    textarea { min-height: 70px; resize: vertical; }
+    .card {
+      background: #0f1520; border: 1px solid var(--border); padding: 12px; border-radius: 14px; margin-bottom: 10px;
+    }
+    .small { font-size: 12px; color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .list { display: grid; gap: 8px; }
+    .kbd {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px; background: #111827; border: 1px solid var(--border); padding: 2px 6px; border-radius: 6px; color: var(--muted);
+    }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); margin-left: 6px; color: var(--muted); }
+    .color-swatch { width: 18px; height: 18px; border-radius: 4px; border: 1px solid var(--border); display: inline-block; vertical-align: middle; margin-left: 6px; }
+    details summary { cursor: pointer; }
+    .footer { position: sticky; bottom: 0; padding-top: 8px; background: linear-gradient(to top, var(--bg), transparent); }
+    .muted { color: var(--muted); }
+    .hr { height: 1px; background: var(--border); margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <aside>
+    <h1>Timetable Editor</h1>
+    <div class="row">
+      <input id="fileInput" type="file" accept=".json" />
+      <button class="btn" id="downloadBtn">Download JSON</button>
+    </div>
+    <div class="hr"></div>
+    <div class="row">
+      <button class="btn ok" id="addWeekBtn">+ Week</button>
+      <button class="btn" id="autoColorBtn" title="Infer colors by subject keywords">Auto‑color</button>
+    </div>
+    <p class="small">Tips: Load your <span class="kbd">timetable.json</span>, edit, then “Download JSON”. Use “Auto‑color” to tag Anatomy (purple), Biochemistry (blue), and Physiology (green).</p>
+    <div id="weeksList" class="list"></div>
+  </aside>
+
+  <main>
+    <div id="editorArea"><p class="muted">Load a <span class="kbd">timetable.json</span> to begin.</p></div>
+    <div class="footer">
+      <div class="row">
+        <span class="small">Color legend:</span>
+        <span class="pill">Anatomy <span class="color-swatch" style="background:#800080"></span></span>
+        <span class="pill">Biochemistry <span class="color-swatch" style="background:#0000FF"></span></span>
+        <span class="pill">Physiology <span class="color-swatch" style="background:#008000"></span></span>
+      </div>
+    </div>
+  </main>
+
+<script>
+let data = null;
+let currentWeekKey = null;
+const weeksList = document.getElementById('weeksList');
+const editorArea = document.getElementById('editorArea');
+
+const COLORS = {
+  anatomy: '#800080',
+  biochemistry: '#0000FF',
+  physiology: '#008000'
+};
+
+function subjectColorFor(text="") {
+  const t = text.toLowerCase();
+  if (/(neuro)?anatomy|osteology|dissection|gross/.test(t)) return COLORS.anatomy;
+  if (/biochem|metabolism|lipoprotein|glucose|molecular/.test(t)) return COLORS.biochemistry;
+  if (/physiology|renal|vision|hearing|motor|sensory|cranial/.test(t)) return COLORS.physiology;
+  return "";
+}
+
+function renderWeeks() {
+  weeksList.innerHTML = "";
+  if (!data || !data.weeks) return;
+  Object.entries(data.weeks).forEach(([key, wk]) => {
+    const btn = document.createElement('button');
+    btn.className = 'btn';
+    btn.textContent = (wk.label || key) + (wk.range ? ` — ${wk.range}` : "");
+    btn.onclick = () => { currentWeekKey = key; renderEditor(); };
+    weeksList.appendChild(btn);
+  });
+}
+
+function renderEditor() {
+  if (!data || !currentWeekKey) { editorArea.innerHTML = "<p class='muted'>Select a week.</p>"; return; }
+  const wk = data.weeks[currentWeekKey];
+  editorArea.innerHTML = "";
+  const wrap = document.createElement('div');
+
+  // Week header card
+  wrap.appendChild(card(() => `
+    <div class="grid">
+      <div>
+        <label class="small">Week Key</label>
+        <input type="text" id="wkKey" value="${escapeHtml(currentWeekKey)}" />
+      </div>
+      <div>
+        <label class="small">Label</label>
+        <input type="text" id="wkLabel" value="${escapeHtml(wk.label || "")}" />
+      </div>
+      <div>
+        <label class="small">Range</label>
+        <input type="text" id="wkRange" value="${escapeHtml(wk.range || "")}" />
+      </div>
+    </div>
+    <div class="row" style="margin-top:8px;">
+      <button class="btn ok" id="saveWeekMeta">Save Week Meta</button>
+      <button class="btn danger" id="deleteWeek">Delete Week</button>
+      <button class="btn" id="addDay">+ Day</button>
+    </div>
+  `));
+
+  // Days section
+  const days = wk.days || {};
+  const daysKeys = Object.keys(days);
+  daysKeys.forEach((dayKey) => {
+    const day = days[dayKey];
+    const dayCard = card(() => `
+      <div class="grid">
+        <div>
+          <label class="small">Day Key (e.g., mon/tue)</label>
+          <input type="text" data-daykey="${escapeHtml(dayKey)}" class="dayKey" value="${escapeHtml(dayKey)}" />
+        </div>
+        <div>
+          <label class="small">Date</label>
+          <input type="text" data-daykey="${escapeHtml(dayKey)}" class="dayDate" value="${escapeHtml(day.date || "")}" />
+        </div>
+      </div>
+      <div class="row" style="margin-top:8px;">
+        <button class="btn" data-daykey="${escapeHtml(dayKey)}" onclick="addSlot('${escapeJs(dayKey)}')">+ Time Slot</button>
+        <button class="btn danger" data-daykey="${escapeHtml(dayKey)}" onclick="deleteDay('${escapeJs(dayKey)}')">Delete Day</button>
+      </div>
+      <div id="slots_${escapeHtml(dayKey)}"></div>
+    `);
+    wrap.appendChild(dayCard);
+
+    // Render slots for this day
+    const slotsWrap = dayCard.querySelector("#slots_" + CSS.escape(dayKey));
+    Object.entries(day).forEach(([slotKey, slotVal]) => {
+      if (slotKey === "date") return;
+      slotsWrap.appendChild(slotCard(dayKey, slotKey, slotVal));
+    });
+  });
+
+  editorArea.appendChild(wrap);
+
+  // Wire week meta buttons
+  document.getElementById('saveWeekMeta').onclick = () => {
+    const newKey = document.getElementById('wkKey').value.trim() || currentWeekKey;
+    const newLabel = document.getElementById('wkLabel').value;
+    const newRange = document.getElementById('wkRange').value;
+    if (newKey !== currentWeekKey) {
+      data.weeks[newKey] = data.weeks[currentWeekKey];
+      delete data.weeks[currentWeekKey];
+      currentWeekKey = newKey;
+    }
+    data.weeks[currentWeekKey].label = newLabel;
+    data.weeks[currentWeekKey].range = newRange;
+    renderWeeks(); renderEditor();
+  };
+  document.getElementById('deleteWeek').onclick = () => {
+    if (confirm('Delete this week?')) {
+      delete data.weeks[currentWeekKey];
+      currentWeekKey = null;
+      renderWeeks(); renderEditor();
+    }
+  };
+  document.getElementById('addDay').onclick = () => {
+    const key = prompt('Day key (e.g., mon, tue, wed)?');
+    if (!key) return;
+    data.weeks[currentWeekKey].days = data.weeks[currentWeekKey].days || {};
+    data.weeks[currentWeekKey].days[key] = { date: "" };
+    renderEditor();
+  };
+}
+
+function slotCard(dayKey, slotKey, slotVal) {
+  const el = document.createElement('div');
+  el.className = 'card';
+  const isString = typeof slotVal === 'string';
+  const isArray = Array.isArray(slotVal);
+  const isObject = !isArray && typeof slotVal === 'object' && slotVal !== null;
+
+  const summary = escapeHtml(slotKey.replaceAll('_', ':'));
+
+  el.innerHTML = `
+    <details open>
+      <summary><strong>${summary}</strong></summary>
+      <div class="row" style="margin:8px 0;">
+        <button class="btn" onclick="renameSlot('${escapeJs(dayKey)}','${escapeJs(slotKey)}')">Rename Slot</button>
+        <button class="btn" onclick="convertSlot('${escapeJs(dayKey)}','${escapeJs(slotKey)}')">Convert (string ⇄ list)</button>
+        <button class="btn danger" onclick="deleteSlot('${escapeJs(dayKey)}','${escapeJs(slotKey)}')">Delete Slot</button>
+      </div>
+      <div class="hr"></div>
+      <div id="entries"></div>
+    </details>
+  `;
+
+  const entriesWrap = el.querySelector('#entries');
+
+  if (isString) {
+    // show plain string editor with optional convert button
+    const text = document.createElement('textarea');
+    text.value = slotVal;
+    text.oninput = () => {
+      data.weeks[currentWeekKey].days[dayKey][slotKey] = text.value;
+    };
+    entriesWrap.appendChild(text);
+    const hint = document.createElement('div');
+    hint.className = 'small';
+    hint.textContent = 'This slot is a plain string. Use “Convert” to turn it into a list so you can set colors etc.';
+    entriesWrap.appendChild(hint);
+  } else if (isArray) {
+    slotVal.forEach((entry, idx) => {
+      entriesWrap.appendChild(entryEditor(dayKey, slotKey, idx, entry));
+    });
+    const addBtn = document.createElement('button');
+    addBtn.className = 'btn ok';
+    addBtn.textContent = '+ Add Entry';
+    addBtn.onclick = () => {
+      const arr = data.weeks[currentWeekKey].days[dayKey][slotKey];
+      arr.push({ title: "", meta: "", tag: "", color: "" });
+      renderEditor();
+    };
+    entriesWrap.appendChild(addBtn);
+  } else if (isObject) {
+    entriesWrap.appendChild(entryEditor(dayKey, slotKey, 0, slotVal, true));
+  }
+
+  return el;
+}
+
+function entryEditor(dayKey, slotKey, idx, entry, single=false) {
+  const wrap = document.createElement('div');
+  wrap.className = 'card';
+
+  const path = `weeks.${currentWeekKey}.days.${dayKey}.${slotKey}` + (single ? "" : `[${idx}]`);
+
+  wrap.innerHTML = `
+    <div class="grid">
+      <div>
+        <label class="small">Title</label>
+        <input type="text" value="${escapeHtml(entry.title || "")}" />
+      </div>
+      <div>
+        <label class="small">Meta</label>
+        <input type="text" value="${escapeHtml(entry.meta || "")}" />
+      </div>
+      <div>
+        <label class="small">Tag</label>
+        <input type="text" value="${escapeHtml(entry.tag || "")}" />
+      </div>
+      <div>
+        <label class="small">Color</label>
+        <input type="text" value="${escapeHtml(entry.color || "")}" placeholder="#RRGGBB" />
+      </div>
+      <div>
+        <label class="small">Duration (slots)</label>
+        <input type="number" min="1" value="${escapeHtml(entry.duration || 1)}" />
+      </div>
+    </div>
+    <div class="row" style="margin-top:8px;">
+      <button class="btn" onclick="autoColor('${escapeJs(path)}')">Auto‑color</button>
+      ${single ? '' : '<button class="btn danger" onclick="deleteEntry(\'' + escapeJs(dayKey) + '\',\'' + escapeJs(slotKey) + '\',' + idx + ')">Delete Entry</button>'}
+    </div>
+    <div class="small muted">Path: ${path}</div>
+  `;
+
+  const inputs = wrap.querySelectorAll('input');
+  inputs[0].oninput = (e) => entry.title = e.target.value;
+  inputs[1].oninput = (e) => entry.meta = e.target.value;
+  inputs[2].oninput = (e) => entry.tag = e.target.value;
+  inputs[3].oninput = (e) => entry.color = e.target.value;
+
+  return wrap;
+}
+
+// Utils
+function card(innerHtmlFn) {
+  const d = document.createElement('div');
+  d.className = 'card';
+  d.innerHTML = innerHtmlFn();
+  return d;
+}
+function escapeHtml(s) {
+  return (s ?? "").toString().replace(/[&<>"']/g, m => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[m]));
+}
+function escapeJs(s) {
+  return (s ?? "").toString().replace(/['"\\]/g, '\\$&');
+}
+
+// Global actions
+document.getElementById('fileInput').addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      data = JSON.parse(reader.result);
+      if (!data.weeks) data.weeks = {};
+      renderWeeks();
+      // auto select first week
+      currentWeekKey = Object.keys(data.weeks)[0] || null;
+      renderEditor();
+    } catch (err) {
+      alert('Invalid JSON: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+});
+
+document.getElementById('downloadBtn').addEventListener('click', () => {
+  if (!data) { alert('No data loaded.'); return; }
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'timetable.json'; a.click();
+  URL.revokeObjectURL(url);
+});
+
+document.getElementById('addWeekBtn').addEventListener('click', () => {
+  if (!data) data = { weeks: {} };
+  const key = prompt('Week key (e.g., week_4)?');
+  if (!key) return;
+  data.weeks[key] = { label: '', range: '', days: {} };
+  renderWeeks();
+});
+
+document.getElementById('autoColorBtn').addEventListener('click', () => {
+  if (!data?.weeks) return;
+  Object.values(data.weeks).forEach(wk => {
+    Object.values(wk.days || {}).forEach(day => {
+      Object.entries(day).forEach(([slotKey, slotVal]) => {
+        if (slotKey === 'date') return;
+        if (Array.isArray(slotVal)) {
+          slotVal.forEach(entry => {
+            if (entry && typeof entry === 'object') {
+              const txt = [entry.title || '', entry.meta || '', entry.tag || ''].join(' ');
+              const c = subjectColorFor(txt);
+              if (c) entry.color = c;
+            }
+          });
+        } else if (slotVal && typeof slotVal === 'object') {
+          const entry = slotVal;
+          const txt = [entry.title || '', entry.meta || '', entry.tag || ''].join(' ');
+          const c = subjectColorFor(txt);
+          if (c) entry.color = c;
+        }
+      });
+    });
+  });
+  renderEditor();
+  alert('Colors inferred where possible.');
+});
+
+// Slot operations (global so we can call from HTML attributes)
+window.renameSlot = (dayKey, slotKey) => {
+  const newKey = prompt('New slot key (e.g., 08_00_09_00)?', slotKey);
+  if (!newKey) return;
+  const day = data.weeks[currentWeekKey].days[dayKey];
+  day[newKey] = day[slotKey];
+  delete day[slotKey];
+  renderEditor();
+};
+window.convertSlot = (dayKey, slotKey) => {
+  const day = data.weeks[currentWeekKey].days[dayKey];
+  const val = day[slotKey];
+  if (typeof val === 'string') {
+    day[slotKey] = [{ title: val, meta: '', tag: 'Reading', color: subjectColorFor(val) }];
+  } else if (Array.isArray(val)) {
+    if (val.length === 1 && typeof val[0] === 'object') {
+      day[slotKey] = val[0].title || '';
+    } else {
+      alert('Can only convert a single-entry list back to string.');
+    }
+  } else if (val && typeof val === 'object') {
+    day[slotKey] = [val];
+  }
+  renderEditor();
+};
+window.deleteSlot = (dayKey, slotKey) => {
+  if (!confirm('Delete this slot?')) return;
+  const day = data.weeks[currentWeekKey].days[dayKey];
+  delete day[slotKey];
+  renderEditor();
+};
+window.addSlot = (dayKey) => {
+  const key = prompt('Time slot key (e.g., 08_00_09_00)?');
+  if (!key) return;
+  const day = data.weeks[currentWeekKey].days[dayKey];
+  if (day[key]) { alert('Slot exists.'); return; }
+  day[key] = [{ title: '', meta: '', tag: '', color: '' }];
+  renderEditor();
+};
+window.deleteDay = (dayKey) => {
+  if (!confirm('Delete this day?')) return;
+  delete data.weeks[currentWeekKey].days[dayKey];
+  renderEditor();
+};
+window.deleteEntry = (dayKey, slotKey, idx) => {
+  if (!confirm('Delete this entry?')) return;
+  const arr = data.weeks[currentWeekKey].days[dayKey][slotKey];
+  arr.splice(idx, 1);
+  renderEditor();
+};
+window.autoColor = (path) => {
+  // path like weeks.week_1.days.mon.08_00_09_00[0]
+  try {
+    const entry = pathTo(data, path);
+    if (entry && typeof entry === 'object') {
+      const txt = [entry.title || '', entry.meta || '', entry.tag || ''].join(' ');
+      entry.color = subjectColorFor(txt);
+      renderEditor();
+    }
+  } catch (e) { alert('Failed to auto‑color: ' + e.message); }
+};
+
+function pathTo(obj, path) {
+  const tokens = path.split('.').flatMap(p => {
+    const m = p.match(/^([^\[]+)(\[(\d+)\])?$/);
+    if (!m) return [p];
+    const key = m[1]; const idx = m[3] !== undefined ? Number(m[3]) : null;
+    return idx === null ? [key] : [key, idx];
+  });
+  let cur = obj;
+  for (const t of tokens) cur = cur[t];
+  return cur;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,439 @@
+{
+  "weeks": {
+    "week_1": {
+      "label": "Week 1",
+      "range": "Mon 18/08/2025 – Fri 22/08/2025",
+      "days": {
+        "mon": {
+          "date": "18/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Anatomy Lecture",
+              "meta": "Hall A",
+              "duration": 2,
+              "color": "#800080"
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Introduction to Neuroanatomy",
+              "meta": "Neuroanatomy Lecture I — Dr. JD",
+              "tag": "Lecture",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [
+            {
+              "title": "Nervous tissue",
+              "meta": "Neuroanatomy Lecture II — Dr. JJ",
+              "tag": "Lecture",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "another",
+              "meta": "another",
+              "tag": "another",
+              "color": "#000000"
+            }
+          ],
+          "14_15_15_15": "Anatomy Reading Time",
+          "15_15_16_15": "SGL",
+          "09_00_10_00": null
+        },
+        "tue": {
+          "date": "19/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Histology of the Endocrine glands",
+              "meta": "Histology practical — Dr. HA & Anatomy staff (Group 16–20)",
+              "tag": "Practical",
+              "color": "#800080",
+              "duration": 1
+            },
+            {
+              "title": "another",
+              "meta": "another",
+              "tag": "another",
+              "color": "#000000"
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Motor functions: Introduction",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Lecture",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Histology of the Endocrine glands",
+              "meta": "Histology practical — Dr. HA & Anatomy staff (Group 11–15)",
+              "tag": "Practical",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [
+            {
+              "title": "Biochemistry of endocrine function — II",
+              "meta": "Biochemistry Lecture — Dr. AWDTA",
+              "tag": "Lecture",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Histology of the Endocrine glands",
+              "meta": "Histology practical — Dr. HA & Anatomy staff (Group 1–5)",
+              "tag": "Practical",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "14_15_15_15": "Anatomy Reading Time"
+        },
+        "wed": {
+          "date": "20/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Cell Signaling",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Lecture",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Biochemistry of adrenocortical hormones",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Lecture",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": "Biochemistry reading time — I",
+          "13_15_14_15": [
+            {
+              "title": "PPD Introduction",
+              "meta": "Lecture — Dr. SP",
+              "tag": "PPD",
+              "color": "#008000",
+              "duration": 1
+            }
+          ]
+        },
+        "thu": {
+          "date": "21/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Overview of the functions of the nervous system",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Lecture",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "General sensations",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Lecture",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": "Physiology Reading Time",
+          "14_15_15_15": "Physiology Reading Time"
+        },
+        "fri": {
+          "date": "22/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry of catecholamines",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Lecture",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": "Physiology Reading Time",
+          "13_15_14_15": "Biochemistry Reading Time"
+        }
+      }
+    },
+    "week_2": {
+      "label": "Week 2",
+      "range": "Mon 25/08/2025 – Fri 29/08/2025",
+      "days": {
+        "mon": {
+          "date": "25/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Introduction to Anatomy of Head and Neck",
+              "meta": "Anatomy Lecture — Dr. KD",
+              "tag": "Lecture",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Osteology of head and neck (Gross Anatomy Practical)",
+              "meta": "Dr. JD & Anatomy staff — Whole batch",
+              "tag": "Practical",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Organization of the Triangles of the neck; Thyroid & Parathyroid; Suboccipital triangle (Dissections)",
+              "meta": "Dr. KD & Anatomy staff",
+              "tag": "Dissections",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "tue": {
+          "date": "26/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Cranium, meninges, and surface topography of cerebrum",
+              "meta": "Neuroanatomy Lecture III — Prof. SBA",
+              "tag": "Lecture",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Temporal and infratemporal region",
+              "meta": "Anatomy Lecture — Dr. JD",
+              "tag": "Lecture",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Root of the Neck (Dissections)",
+              "meta": "Dr. WK & Anatomy staff",
+              "tag": "Dissections",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "wed": {
+          "date": "27/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry of thyroid hormones",
+              "meta": "Biochemistry Lecture — Dr. AWDTA",
+              "tag": "Lecture",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Endocrine pancreas",
+              "meta": "Biochemistry Lecture — Dr. AWDTA",
+              "tag": "Lecture",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ]
+        },
+        "thu": {
+          "date": "28/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Reflexes and control of motor functions I",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Lecture",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Reflexes and control of motor functions II",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Lecture",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Physical examination of the nervous system — Sensory (PD)",
+              "meta": "Prof. PD & Physiology staff — Gr.1–10",
+              "tag": "PD",
+              "color": "#008000",
+              "duration": 1
+            }
+          ]
+        },
+        "fri": {
+          "date": "29/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry reading time — II",
+              "meta": "—",
+              "tag": "Reading",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Physiology of hearing",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Lecture",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Physical examination of the nervous system — Sensory (PD)",
+              "meta": "Prof. PD & Physiology staff — Gr.11–20",
+              "tag": "PD",
+              "color": "#008000",
+              "duration": 1
+            }
+          ]
+        }
+      }
+    },
+    "week_3": {
+      "label": "Week 3",
+      "range": "Mon 01/09/2025 – Fri 05/09/2025",
+      "days": {
+        "mon": {
+          "date": "01/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Deep structure of cerebrum, ventricles and CSF",
+              "meta": "Neuroanatomy Lecture IV — Dr. WK",
+              "tag": "Lecture",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Face & Parotid region (Dissections)",
+              "meta": "Dr. SJ & Anatomy staff",
+              "tag": "Dissections",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "tue": {
+          "date": "02/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Neurons, Nerve tissue and Structure of the Brain I",
+              "meta": "Histology Practical & Neuroanatomy PD I — Gr.11–15 — Prof. SBA & Dr. JJ & Anatomy staff",
+              "tag": "Practical/PD",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "wed": {
+          "date": "03/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Glucose homeostasis",
+              "meta": "Biochemistry Lecture — Prof. HKIP",
+              "tag": "Lecture",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Neurons, Nerve tissue and Structure of the Brain I",
+              "meta": "Histology Practical & Neuroanatomy PD I — Gr.16–20 — Prof. SBA & Dr. JJ & Anatomy staff",
+              "tag": "Practical/PD",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [
+            {
+              "title": "Biochemistry reading time — IV",
+              "meta": "—",
+              "tag": "Reading",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Neurons, Nerve tissue and Structure of the Brain I",
+              "meta": "Histology Practical & Neuroanatomy PD I — Gr.1–5 — Prof. SBA & Dr. JJ & Anatomy staff",
+              "tag": "Practical/PD",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "thu": {
+          "date": "04/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Physiology of Vision I",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Lecture",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Physiology of Vision II",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Lecture",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "PPD & English Assessment",
+              "meta": "—",
+              "tag": "PPD",
+              "color": "#008000",
+              "duration": 1
+            }
+          ]
+        },
+        "fri": {
+          "date": "05/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "HOLIDAY",
+              "duration": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}
