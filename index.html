@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Y2S1 Timetable</title>
+<link href="style.css" rel="stylesheet"/>
+<style>
+/* === Fixed desktop-like canvas on mobile === */
+:root { --canvas-width: 1200px; --slot-h: 76px; }
+
+/* Keep desktop margins/layout identical by preventing responsive shrink */
+body { min-width: var(--canvas-width); }
+
+/* Header width to match canvas width so margins look identical */
+header, .controls { min-width: var(--canvas-width); }
+
+/* Scroll frame to allow panning on small screens without changing sizes */
+.timetable-frame {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Lock the table size and column behavior */
+#timetable {
+  width: var(--canvas-width);
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+/* Uniform row heights for slots (merged rows become exact multiples) */
+#timetable tbody tr.slot-row > td,
+#timetable thead th {
+  height: var(--slot-h);
+}
+
+/* Make content fill full cell area and pin to top */
+#timetable td, #timetable th {
+  vertical-align: top;
+  padding: 0;
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* Full fill for single-entry cells */
+.tcell-fill {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* True vertical split for simultaneous events */
+.split-wrap {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.split .col {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px;
+  box-sizing: border-box;
+  border-left: 1px solid rgba(0,0,0,0.1);
+}
+.split .col:first-child { border-left: none; }
+</style>
+
+<meta name="format-detection" content="telephone=no"/>
+</head>
+<body>
+<header>
+<h1>Year 2 • Semester 1 — Timetable</h1>
+<div class="controls">
+<label for="week">Week:</label>
+<select id="week"></select>
+<span class="dates" id="weekDates"></span>
+<label class="spacer"></label>
+<input accept="application/json" id="fileJSON" type="file"/>
+<button id="loadBtn">Load JSON</button>
+</div>
+</header>
+<main>
+<div class="timetable-frame">
+<table id="timetable">
+<thead>
+<tr>
+<th class="time-col">Time</th>
+<th>Monday<div class="date" id="monDate"></div></th>
+<th>Tuesday<div class="date" id="tueDate"></div></th>
+<th>Wednesday<div class="date" id="wedDate"></div></th>
+<th>Thursday<div class="date" id="thuDate"></div></th>
+<th>Friday<div class="date" id="friDate"></div></th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="slot">08:00–09:00</td><td id="mon-08_00_09_00"></td><td id="tue-08_00_09_00"></td><td id="wed-08_00_09_00"></td><td id="thu-08_00_09_00"></td><td id="fri-08_00_09_00"></td></tr>
+<tr><td class="slot">09:00–10:00</td><td id="mon-09_00_10_00"></td><td id="tue-09_00_10_00"></td><td id="wed-09_00_10_00"></td><td id="thu-09_00_10_00"></td><td id="fri-09_00_10_00"></td></tr>
+<tr class="break"><td class="slot">10:00–10:15</td><td colspan="5">TEA BREAK</td></tr>
+<tr><td class="slot">10:15–11:15</td><td id="mon-10_15_11_15"></td><td id="tue-10_15_11_15"></td><td id="wed-10_15_11_15"></td><td id="thu-10_15_11_15"></td><td id="fri-10_15_11_15"></td></tr>
+<tr><td class="slot">11:15–12:15</td><td id="mon-11_15_12_15"></td><td id="tue-11_15_12_15"></td><td id="wed-11_15_12_15"></td><td id="thu-11_15_12_15"></td><td id="fri-11_15_12_15"></td></tr>
+<tr class="break"><td class="slot">12:15–13:15</td><td colspan="5">LUNCH BREAK</td></tr>
+<tr><td class="slot">13:15–14:15</td><td id="mon-13_15_14_15"></td><td id="tue-13_15_14_15"></td><td id="wed-13_15_14_15"></td><td id="thu-13_15_14_15"></td><td id="fri-13_15_14_15"></td></tr>
+<tr><td class="slot">14:15–15:15</td><td id="mon-14_15_15_15"></td><td id="tue-14_15_15_15"></td><td id="wed-14_15_15_15"></td><td id="thu-14_15_15_15"></td><td id="fri-14_15_15_15"></td></tr>
+<tr><td class="slot">15:15–16:15</td><td id="mon-15_15_16_15"></td><td id="tue-15_15_16_15"></td><td id="wed-15_15_16_15"></td><td id="thu-15_15_16_15"></td><td id="fri-15_15_16_15"></td></tr>
+</tbody>
+</table>
+</div>
+</main>
+<footer>
+<a href="update.html">Quick editor</a> • <a href="README.txt">README</a>
+</footer>
+<script id="default-data" type="application/json">{"weeks": {"week_1": {"label": "Week 1", "range": "", "days": {"mon": {"date": "", "08_00_09_00": [{"title": "Sample: Endocrine glands structure and development", "meta": "Anatomy Lecture \u2014 Dr. HA", "tag": "Lecture"}]}, "tue": {"date": ""}, "wed": {"date": ""}, "thu": {"date": ""}, "fri": {"date": "22/08/2025"}}}, "week_2": {"label": "Week 2", "range": "", "days": {"mon": {"date": ""}, "tue": {"date": "26/08/2025"}, "wed": {"date": "27/08/2025"}, "thu": {"date": "28/05/2025"}, "fri": {"date": "29/08/2025"}}}, "week_3": {"label": "Week 3", "range": "", "days": {"mon": {"date": "01/09/2025"}, "tue": {"date": "02/09/2025"}, "wed": {"date": "03/09/2025"}, "thu": {"date": "04/09/2025"}, "fri": {"date": "05/09/2025"}}}, "week_4": {"label": "Week 4", "range": "", "days": {"mon": {"date": "08/09/2025"}, "tue": {"date": "09/09/2025"}, "wed": {"date": "10/09/2025"}, "thu": {"date": "11/09/2025"}, "fri": {"date": "12/09/2025"}}}, "week_5": {"label": "Week 5", "range": "", "days": {"mon": {"date": "15/09/2025"}, "tue": {"date": "16/09/2025"}, "wed": {"date": "17/09/2025"}, "thu": {"date": "18/09/2025"}, "fri": {"date": "19/09/2025"}}}, "week_6": {"label": "Week 6", "range": "", "days": {"mon": {"date": "22/09/2025"}, "tue": {"date": "23/09/2025"}, "wed": {"date": "24/09/2025"}, "thu": {"date": "25/09/2025"}, "fri": {"date": "26/09/2025"}}}, "week_7": {"label": "Week 7", "range": "", "days": {"mon": {"date": "29/09/2025"}, "tue": {"date": "30/09/2025"}, "wed": {"date": "01/10/2025"}, "thu": {"date": "02/10/2025"}, "fri": {"date": "03/10/2025"}}}, "week_8": {"label": "Week 8", "range": "", "days": {"mon": {"date": "06/10/2025"}, "tue": {"date": "07/10/2025"}, "wed": {"date": "08/10/2025"}, "thu": {"date": "09/10/2025"}, "fri": {"date": "10/10/2025"}}}, "week_9": {"label": "Week 9", "range": "", "days": {"mon": {"date": "13/10/2025"}, "tue": {"date": "14/10/2025"}, "wed": {"date": "15/10/2025"}, "thu": {"date": "16/10/2025"}, "fri": {"date": "17/10/2025"}}}, "week_10": {"label": "Week 10", "range": "", "days": {"mon": {"date": "20/10/2025"}, "tue": {"date": "21/10/2025"}, "wed": {"date": "22/10/2025"}, "thu": {"date": "23/10/2025"}, "fri": {"date": "24/10/2025"}}}, "week_11": {"label": "Week 11", "range": "", "days": {"mon": {"date": "27/10/2025"}, "tue": {"date": "28/10/2025"}, "wed": {"date": "29/10/2025"}, "thu": {"date": "30/10/2025"}, "fri": {"date": "31/10/2025"}}}, "week_12": {"label": "Week 12", "range": "", "days": {"mon": {"date": "03/11/2025"}, "tue": {"date": "04/11/2025"}, "wed": {"date": "05/11/2025"}, "thu": {"date": "06/11/2025"}, "fri": {"date": "07/11/2025"}}}, "week_13": {"label": "Week 13", "range": "", "days": {"mon": {"date": "10/11/2025"}, "tue": {"date": "11/11/2025"}, "wed": {"date": "12/11/2025"}, "thu": {"date": "13/11/2025"}, "fri": {"date": "14/11/2025"}}}, "week_14": {"label": "Week 14", "range": "", "days": {"mon": {"date": "17/11/2025"}, "tue": {"date": "18/11/2025"}, "wed": {"date": "19/11/2025"}, "thu": {"date": "20/11/2025"}, "fri": {"date": "21/11/2025"}}}}}</script>
+<script src="script.js"></script>
+
+</body>
+</html>
