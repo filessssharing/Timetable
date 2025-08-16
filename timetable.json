@@ -1,0 +1,3475 @@
+{
+  "weeks": {
+    "week_1": {
+      "label": "Week 1",
+      "range": "Mon 18/08/2025 – Fri 22/08/2025",
+      "days": {
+        "mon": {
+          "date": "18/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Endocrine glands structure and Development",
+              "meta": "Dr. HA",
+              "duration": 2,
+              "color": "#800080",
+              "tag": "Anatomy"
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Introduction to Neuroanatomy",
+              "meta": "Neuroanatomy Lecture I — Dr. JD",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [
+            {
+              "title": "Nervous tissue",
+              "meta": "Neuroanatomy Lecture II — Dr. JJ",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Histology of the Endocrine glands",
+              "meta": "Histology practical - Dr. HA",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "15_15_16_15": [
+            {
+              "title": "Anatomy Reading time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "tue": {
+          "date": "19/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Histology of the Endocrine glands",
+              "meta": "Histology practical — Dr. HA & Anatomy staff (Group 16–20)",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Histology of the Endocrine glands",
+              "meta": "Histology practical — Dr. HA & Anatomy staff (Group 11–15)",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Histology of the Endocrine glands",
+              "meta": "Histology practical — Dr. HA & Anatomy staff (Group 1–5)",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+              "title": "Anatomy Reading time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+
+        },
+        "wed": {
+          "date": "20/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Cell Signaling",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Lecture",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Biochemistry of Endocrine function - 1",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Lecture",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Biochemistry reading time — I",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [
+            {
+              "title": "Biochemistry of Endocrine function - 2",
+              "meta": "Biochemistry Lecture - Dr. AWDTA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "PPD Introduction",
+              "meta": "Lecture — Dr. SP",
+              "tag": "PPD",
+              "color": "#FFB6C1",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15" : [
+         {  "title": "SGL",
+            "meta": "",
+            "tag": "PPD",
+            "color": "#000000",
+            "duration": 1
+          }
+          ]
+        },
+        "thu": {
+          "date": "21/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Overview of the functions of the nervous system",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Motor functions : Introduction",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "General sensations",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Physiology Reading time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry Reading time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "fri": {
+          "date": "22/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry of catecholamines",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Biochemistry of adrenocortical hormones",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Physiology reading time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Physiology Reading time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry Reading time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        }
+      }
+    },
+    "week_2": {
+      "label": "Week 2",
+      "range": "Mon 25/08/2025 – Fri 29/08/2025",
+      "days": {
+        "mon": {
+          "date": "25/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Introduction to Anatomy of Head and Neck",
+              "meta": "Anatomy Lecture — Dr. KD",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Neck",
+              "meta": "Anatomy Lecture — Dr. KD",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Osteology of head and neck",
+              "meta": "Gross Anatomy Practical — Dr. JD & all Anatomy staff (Whole batch)",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Organization of the Triangles of the neck, Thyroid & Parathyroid, suboccipital triangle",
+              "meta": "Dissections — Dr. KD & all Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "tue": {
+          "date": "26/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Cranium, meninges, and surface topography of cerebrum",
+              "meta": "Neuroanatomy Lecture III — Prof. SBA",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Temporal and infratemporal region",
+              "meta": "Anatomy Lecture — Dr. JD",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [{  "title": "Root of the Neck",
+            "meta": "Dissections — Dr. WK & all Anatomy staff",
+            "tag": "Anatomy",
+            "color": "#800080",
+            "duration": 1}],
+          "13_15_14_15": [
+            {
+              "title": "Root of the Neck",
+              "meta": "Dissections — Dr. WK & all Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "wed": {
+          "date": "27/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry of thyroid hormones",
+              "meta": "Biochemistry Lecture — Dr. AWDTA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Biochemistry of sex hormones",
+              "meta": "Biochemistry Lecture — Prof. HKIP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Endocrine pancreas",
+              "meta": "Biochemistry Lecture — Dr. AWDTA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "PPD & English activity preparation",
+              "meta": "Lecture / Activity",
+              "tag": "PPD",
+              "color": "#FFB6C1",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "thu": {
+          "date": "28/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Reflexes and control of motor functions I",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Reflexes and control of motor functions II",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Physical examination of the nervous system — Sensory",
+              "meta": "Physiology PD — Prof. PD & all Physiology staff — Gr.1–10",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry reading time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "fri": {
+          "date": "29/08/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry reading time — 2",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Biochemistry reading time — 3",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Physiology of hearing",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Physical examination of the nervous system — Sensory",
+              "meta": "Physiology PD — Prof. PD & all Physiology staff — Gr.11–20",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry reading time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        }
+      }
+    },
+    "week_3": {
+      "label": "Week 3",
+      "range": "Mon 01/09/2025 – Fri 05/09/2025",
+      "days": {
+        "mon": {
+          "date": "01/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Deep structure of cerebrum — ventricles and CSF",
+              "meta": "Neuroanatomy Lecture IV — Dr. WK",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Face & Parotid region",
+              "meta": "Dissections — Dr. SJ & all Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Neurons, Nerve tissue and Structure of the Brain-I (Group 1–5)",
+              "meta": "Histology Practical & Neuroanatomy PD I — Prof. SBA & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "tue": {
+          "date": "02/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Neurons, Nerve tissue and Structure of the Brain-I (Group 11–15)",
+              "meta": "Histology Practical & Neuroanatomy PD I — Prof. SBA & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Neurons, Nerve tissue and Structure of the Brain-I (Group 16–20)",
+              "meta": "Histology Practical & Neuroanatomy PD I — Prof. SBA & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+
+
+
+
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Neurons, Nerve tissue and Structure of the Brain-I (Group 6–10)",
+              "meta": "Histology Practical & Neuroanatomy PD I — Prof. SBA & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "wed": {
+          "date": "03/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Glucose homeostasis",
+              "meta": "Biochemistry Lecture — Prof. HKIP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Derangement of glucose homeostasis -1",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [
+            {
+              "title": "Biochemistry reading time -4",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "PPD & English Assessment",
+              "meta": "",
+              "tag": "PPD",
+              "color": "#FFB6C1",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": []
+        },
+        "thu": {
+          "date": "04/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Physiology of Vision I",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Physiology of Vision II",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+
+          ],
+          "13_15_14_15": [
+            {
+            "title": "Physiology reading time",
+            "meta": "",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 3
+          },
+          {
+            "title": "Biochemistry reading time",
+            "meta": "",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 3
+          }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "fri": {
+          "date": "05/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        }
+      }
+    },
+    "week_4": {
+      "label": "Week 4",
+      "range": "Mon 08/09/2025 – Fri 12/09/2025",
+      "days": {
+        "mon": {
+          "date": "08/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Scalp and Face",
+              "meta": "Anatomy Lecture — Prof. SBA",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Cerebellum",
+              "meta": "Neuroanatomy Lecture V — Dr. JJ",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Brainstem and Spinal cord",
+              "meta": "Neuroanatomy Lecture VI — Dr. HA",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Cranial cavity, meninges, removal of brain and Cranial fossae (Groups 11–20)",
+              "meta": "Gross Anatomy Practical — Dr. SJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "tue": {
+          "date": "09/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Blood supply of the brain and spinal cord, Dural venous sinuses",
+              "meta": "Neuroanatomy Lecture VII — Dr. SJ",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Nerve tracts",
+              "meta": "Neuroanatomy Lecture VIII — Prof. SBA",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Cranial cavity, meninges, removal of brain and Cranial fossae (Groups 1–10)",
+              "meta": "Gross Anatomy Practical — Dr. SJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "wed": {
+          "date": "10/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Derangement of glucose homeostasis -2",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Biochemistry of hormones -1",
+              "meta": "Biochemistry SGD -1 — Dr. AWDTA & Biochemistry staff",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Sinhala Classes for Bhutanese & Tamil Students",
+              "meta": "",
+              "tag": "PPD",
+              "color": "#FFB6C1",
+              "duration": 1
+            }
+          ],
+          "14_15_15_15": [{
+            "title": "SGL",
+            "meta": "",
+            "tag": "PPD",
+            "color": "#000000",
+            "duration": 2
+            }],
+          "15_15_16_15": []
+        },
+        "thu": {
+          "date": "11/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Pain",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Basal ganglia",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+
+
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Testing visual acuity, visual fields and colour vision",
+              "meta": "Physiology PD — Prof. PD & Physiology staff — Gr.1–10",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Derangements of glucose homeostasis",
+              "meta": "Biochemistry PD — Dr. SPRPP & Biochemistry staff — Gr.11–20",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "fri": {
+          "date": "12/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Introduction to immunobiology: The basic immune response",
+              "meta": "Immunology Lecture — Dr. KD",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Cerebellum",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Testing visual acuity, visual fields and colour vision",
+              "meta": "Physiology PD — Prof. PD & Physiology staff — Gr.11–20",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            },
+            {
+              "title": "Derangements of glucose homeostasis",
+              "meta": "Biochemistry PD — Dr. SPRPP & Biochemistry staff — Gr.1–10",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        }
+      }
+    },
+    "week_5": {
+      "label": "Week 5",
+      "range": "Mon 15/09/2025 – Fri 19/09/2025",
+      "days": {
+        "mon": {
+          "date": "15/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Ear",
+              "meta": "Anatomy Lecture — Dr. CR",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Eye and orbit",
+              "meta": "Anatomy Lecture — Dr. HA",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Cranial Nerves",
+              "meta": "Neuroanatomy Lecture IX — Dr. JD",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Deep structure of cerebrum, ventricles, Brainstem & Cerebellum (Group 16–20)",
+              "meta": "Neuroanatomy Practical II — Dr. WK & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "tue": {
+          "date": "16/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Deep structure of cerebrum, ventricles, Brainstem & Cerebellum (Group 1–5)",
+              "meta": "Neuroanatomy Practical II — Dr. WK & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Deep structure of cerebrum, ventricles, Brainstem & Cerebellum (Group 11–15)",
+              "meta": "Neuroanatomy Practical II — Dr. WK & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Deep structure of cerebrum, ventricles, Brainstem & Cerebellum (Group 6–10)",
+              "meta": "Neuroanatomy Practical II — Dr. WK & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "wed": {
+          "date": "17/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Adipose tissue & obesity",
+              "meta": "Biochemistry Lecture — Dr. HRLM",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Biochemistry reading time -5",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [{
+            "title": "Biochemistry reading time -6",
+            "meta": "",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "13_15_14_15": [
+            {
+              "title": "Sinhala Classes for Bhutanese & Tamil Students",
+              "meta": "",
+              "tag": "PPD",
+              "color": "#FFB6C1",
+              "duration": 1
+            }
+          ],
+          "14_15_15_15": [{
+            "title": "Meet your mentors",
+            "meta": "",
+            "tag": "PPD",
+            "color": "#AC9362",
+            "duration": 1
+            }],
+          "15_15_16_15": [{
+            "title": "SGL",
+            "meta": "",
+            "tag": "PPD",
+            "color": "#000000",
+            "duration": 1
+            }]
+        },
+        "thu": {
+          "date": "18/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Posture",
+              "meta": "Physiology Lecture — Dr. DN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Physiology of Balance",
+              "meta": "Physiology Lecture — Dr. DN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+
+
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Speech and Language",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+
+
+            }
+          ],
+          "11_15_12_15": [{
+            "title": "Smell and taste",
+            "meta": "Physiology Lecture — Prof. VSW",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 1
+            }],
+          "13_15_14_15": [
+            {
+              "title": "Tests of hearing",
+              "meta": "Physiology PD — Dr. DN & Physiology staff — Gr.1–10",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry reading time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "fri": {
+          "date": "19/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Lipoproteins & dyslipidemia -1",
+              "meta": "Biochemistry Lecture — Prof. CNRAA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Cognitive functions – memory and limbic system",
+              "meta": "Physiology Lecture — Prof. VSW",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+
+
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Tests of hearing",
+              "meta": "Physiology PD — Dr. DN & Physiology staff — Gr.11–20",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry reading time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 1
+            }
+          ]
+        }
+      }
+    },
+    "week_6": {
+      "label": "Week 6",
+      "range": "Mon 22/09/2025 – Fri 26/09/2025",
+      "days": {
+        "mon": {
+          "date": "22/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Oral cavity soft and hard palate",
+              "meta": "Anatomy Lecture — Dr. WK",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Pharynx and larynx",
+              "meta": "Anatomy Lecture — Dr. JJ",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Blood supply of the nervous system, venous sinuses, Spinal cord, & cranial nerves (Gr. 6–10)",
+              "meta": "Neuroanatomy Practical III — Dr. JD & Dr. SJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "tue": {
+          "date": "23/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Blood supply of the nervous system, venous sinuses, Spinal cord, & cranial nerves (Gr. 1–5)",
+              "meta": "Neuroanatomy Practical III — Dr. JD & Dr. SJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Blood supply of the nervous system, venous sinuses, Spinal cord, & cranial nerves (Gr. 11–15)",
+              "meta": "Neuroanatomy Practical III — Dr. JD & Dr. SJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Blood supply of the nervous system, venous sinuses, Spinal cord, & cranial nerves (Gr. 16–20)",
+              "meta": "Neuroanatomy Practical III — Dr. JD & Dr. SJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "wed": {
+          "date": "24/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Lipoproteins & dyslipidemia -2",
+              "meta": "Biochemistry Lecture — Prof. CNRAA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Bone growth and remodeling -1",
+            "meta": "Biochemistry Lecture — Prof. CNRAA",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "10_15_11_15": [
+            {
+              "title": "Biochemistry of hormones -2",
+              "meta": "Biochemistry SGD -2 — Prof. HKIP & Biochemistry staff",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Sinhala Classes for Bhutanese & Tamil Students",
+              "meta": "",
+              "tag": "PPD",
+              "color": "#FFB6C1",
+              "duration": 1
+            }
+          ],
+          "14_15_15_15": [{
+            "title": "SGL",
+            "meta": "",
+            "tag": "SGL",
+            "color": "#000000",
+            "duration": 2
+            }],
+          "15_15_16_15": []
+        },
+        "thu": {
+          "date": "25/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Sleep and Arousal, and EEG",
+              "meta": "Physiology Lecture — Prof. PD",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Muscle disorders / dysfunction",
+              "meta": "Physiology Lecture — Dr. SR",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+
+
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Physical examination of the nervous system — Motor",
+              "meta": "Physiology PD — Prof. VSW & Physiology staff — Gr.1–10",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Lipoproteins & dyslipidemias",
+              "meta": "Biochemistry PD — Dr. AWDTA & Biochemistry staff — Gr.11–20",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "fri": {
+          "date": "26/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Introduction to excretion and Disposal of nitrogenous waste",
+              "meta": "Biochemistry Lecture — Prof. HKIP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Urea & urea cycle",
+            "meta": "Biochemistry Lecture — Prof. HKIP",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "10_15_11_15": [
+            {
+              "title": "Applied Physiology of neurological disorders",
+              "meta": "SGD — Prof. VSW & Physiology staff",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Physical examination of the nervous system — Motor",
+              "meta": "Physiology PD — Prof. VSW & Physiology staff — Gr.11–20",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Lipoproteins & dyslipidemias",
+              "meta": "Biochemistry PD — Dr. AWDTA & Biochemistry staff — Gr.1–10",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        }
+      }
+    },
+    "week_7": {
+      "label": "Week 7",
+      "range": "Mon 29/09/2025 – Fri 03/10/2025",
+      "days": {
+        "mon": {
+          "date": "29/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Development of the nervous system",
+              "meta": "Neuroanatomy Lecture X — Dr. JD",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Eye and Ear (Group 1–5)",
+              "meta": "Histology and Prossections — Dr. HA & Dr. KD & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Eye and Ear (Group 6–10)",
+              "meta": "Histology and Prossections — Dr. HA & Dr. KD & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        },
+        "tue": {
+          "date": "30/09/2025",
+          "08_00_09_00": [
+            {
+              "title": "Eye and Ear (Group 11–15)",
+              "meta": "Histology and Prossections — Dr. HA & Dr. KD & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Eye and Ear (Group 16–20)",
+              "meta": "Histology and Prossections — Dr. HA & Dr. KD & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "wed": {
+          "date": "01/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Bone growth and remodeling -2",
+              "meta": "Biochemistry Lecture — Prof. CNRAA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+            "title": "Bone disorders and Markers of bone metabolism",
+            "meta": "Biochemistry Lecture — Prof. CNRAA",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Biochemistry Revision Head / Biochemistry -1",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [
+            {
+            "title": "Biochemistry reading time -7",
+            "meta": "",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Sinhala Classes for Bhutanese & Tamil Students",
+              "meta": "",
+              "tag": "PPD",
+              "color": "#FFB6C1",
+              "duration": 1
+            }
+
+          ],
+          "14_15_15_15": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 2
+            }
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "thu": {
+          "date": "02/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "GFR and factors affecting",
+              "meta": "Physiology Lecture — Prof. SDIN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Physiology Reading Time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Physical examination of the nervous system — Cranial nerves",
+              "meta": "Physiology PD — Dr. SR & Physiology staff — Gr.1–10",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Disorders of bone, and Adipose tissue & obesity",
+              "meta": "Biochemistry PD — Dr. SPRPP & Biochemistry staff — Gr.11–20",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+
+
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "fri": {
+          "date": "03/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "DNA damage, cancer, and metabolic adaptations of cancer cell",
+              "meta": "Biochemistry Lecture — Prof. HKIP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+
+                            "title": "Tubular functions",
+                            "meta": "Physiology Lecture — Prof. SDIN",
+                            "tag": "Physiology",
+                            "color": "#008000",
+                            "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+
+              {
+                "title": "Physical examination of the nervous system — Cranial nerves",
+                "meta": "Physiology PD — Dr. SR & Physiology staff — Gr.11–20",
+                "tag": "Physiology",
+                "color": "#008000",
+                "duration": 3
+              },
+              {
+                "title": "Disorders of bone, and Adipose tissue & obesity",
+                "meta": "Biochemistry PD — Dr. SPRPP & Biochemistry staff — Gr.1–10",
+                "tag": "Biochemistry",
+                "color": "#0000FF",
+                "duration": 3
+              }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        }
+      }
+    },
+    "week_8": {
+      "label": "Week 8",
+      "range": "Mon 06/10/2025 – Fri 10/10/2025",
+      "days": {
+        "mon": {
+          "date": "06/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "tue": {
+          "date": "07/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Oral cavity, plate, larynx and pharynx (Group 1–10)",
+              "meta": "Gross Anatomy Practical Prosections — Dr. WK & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Oral cavity, plate, larynx and pharynx (Group 11–20)",
+              "meta": "Gross Anatomy Practical Prosections — Dr. WK & Dr. JJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": [{
+            "title": "Anatomy reading time",
+            "meta": "",
+            "tag": "Anatomy",
+            "color": "#800080",
+            "duration": 1
+            }]
+        },
+        "wed": {
+          "date": "08/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Application of molecular methods in medicine -1",
+              "meta": "Biochemistry Lecture — Prof. CNRAA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Application of molecular methods in medicine -2",
+              "meta": "Biochemistry Lecture — Prof. CNRAA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Glucose homeostasis",
+              "meta": "Biochemistry SGD -3 — Dr. SPRPP & Biochemistry staff",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 3
+
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "thu": {
+          "date": "09/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Clearance",
+              "meta": "Physiology Lecture — Prof. SDIN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Renal handling of water",
+              "meta": "Physiology Lecture — Prof. SDIN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Micturition",
+              "meta": "Physiology Lecture — Dr. DN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [{
+            "title": "Physiology reading time",
+            "meta": "",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 1
+            }],
+          "13_15_14_15": [
+            {
+              "title": "Investigation of neural functions",
+              "meta": "Physiology PD — Prof. VSW & Physiology staff — Gr.1–10",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Hospital Visit - 1",
+              "meta": "Group 11–20",
+              "tag": "PPD",
+              "color": "#808080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "fri": {
+          "date": "10/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry Reading Time -7",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Application of molecular methods in medicine -3",
+            "meta": "Biochemistry Lecture — Prof. CNRAA",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "10_15_11_15": [
+            {
+              "title": "Role of the kidney in Acid-Base balance",
+              "meta": "Physiology Lecture — Prof. SDIN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [{
+            "title": "Physiology reading time",
+            "meta": "",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 1
+            }],
+          "13_15_14_15": [
+
+              {
+                "title": "Investigation of neural functions",
+                "meta": "Physiology PD — Prof. VSW & Physiology staff — Gr.11–20",
+                "tag": "Physiology",
+                "color": "#008000",
+                "duration": 3
+              },
+              {
+                "title": "Hospital Visit - 1",
+                "meta": "Group 1–10",
+                "tag": "PPD",
+                "color": "#808080",
+                "duration": 3
+              }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        }
+      }
+    },
+    "week_9": {
+      "label": "Week 9",
+      "range": "Mon 13/10/2025 – Fri 17/10/2025",
+      "days": {
+        "mon": {
+          "date": "13/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Nose and paranasal sinuses",
+              "meta": "Anatomy Lecture — Dr. CR",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+            "title": "Anatomy reading Time",
+            "meta": "",
+            "tag": "Anatomy",
+            "color": "#800080",
+            "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Intracranial hemorrhages",
+              "meta": "Neuroanatomy Lecture XI — Dr. SJ",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Nose and paranasal sinuses (Groups 11–20)",
+              "meta": "Gross Anatomy PD — Dr. KD & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "tue": {
+          "date": "14/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Lymph drainage of the head and neck",
+              "meta": "Anatomy Lecture — Dr. WK",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Development of face and palate",
+              "meta": "Anatomy Lecture — Dr. KD",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Nose and paranasal sinuses (Groups 1–10)",
+              "meta": "Gross Anatomy PD — Dr. KD & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "wed": {
+          "date": "15/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Ageing",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Recombinent Proteins",
+            "meta": "Biochemistry Lecture — Prof. HKIP",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "10_15_11_15": [
+            {
+              "title": "Inborn errors of metabolism",
+              "meta": "Biochemistry Lecture — Dr. HRLM",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "IAM 1C — CCR-1",
+              "meta": "",
+              "tag": "PPD",
+              "color": "#808080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": [{"title": "SGL",
+          "meta": "",
+          "tag": "PPD",
+          "color": "#000000",
+          "duration": 1}]
+        },
+        "thu": {
+          "date": "16/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Acid-Base balance disturbances",
+              "meta": "Physiology Lecture — Prof. SDIN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Homeostatic Functions of the kidneys",
+              "meta": "Physiology Lecture — Dr. DN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Physiology Reading Time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Application of molecular methods in medicine",
+              "meta": "Biochemistry PD — Dr. AWDTA & Biochemistry staff — Gr.11–20",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "fri": {
+          "date": "17/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Neurotransmitters",
+              "meta": "Biochemistry Lecture — Dr. SPRPP",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Biochemistry Reading Time 8",
+            "meta": "",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "10_15_11_15": [
+            {
+              "title": "Dehydration and electrolyte imbalances",
+              "meta": "Physiology Lecture — Dr. DN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Physiology Reading Time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Application of molecular methods in medicine",
+              "meta": "Biochemistry PD — Dr. AWDTA & Biochemistry staff — Gr.1–10",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 1
+            }
+          ]
+        }
+      }
+    },
+    "week_10": {
+      "label": "Week 10",
+      "range": "Mon 20/10/2025 – Fri 24/10/2025",
+      "days": {
+        "mon": {
+          "date": "20/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "tue": {
+          "date": "21/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Clinical correlations of head and neck region",
+              "meta": "Anatomy Lecture — Prof. NA De S Amaratunga",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Body side tutorial (Group 1–5)",
+              "meta": "All Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Body side tutorial (Group 6–10)",
+              "meta": "All Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": [{
+            "title": "Anatomy reading Time",
+            "meta": "",
+            "tag": "Anatomy",
+            "color": "#800080",
+            "duration": 1
+            }]
+        },
+        "wed": {
+          "date": "22/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Neurotransmitters and diseases",
+              "meta": "Biochemistry Lecture — Dr. HRLM",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Maintenance of brain environment",
+              "meta": "Biochemistry Lecture — Dr. AWDTA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Molecular methods in medicine",
+              "meta": "Biochemistry SGD -4 — Dr. HRLM & Biochemistry Staff",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [{
+            "title": "SGL",
+            "meta": "",
+            "tag": "PPD",
+            "color": "#000000",
+            "duration": 3
+            }],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "thu": {
+          "date": "23/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Derangement of Physiology in acute and chronic kidney disease",
+              "meta": "Physiology Lecture — Dr. DN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Physiology reading time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Renal handling of water",
+              "meta": "Physiology PD — Prof. SDIN & Physiology staff — Gr.1–10",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Normal and abnormal constituents in urine",
+              "meta": "Biochemistry PD — Prof. HKIP & Biochemistry staff — Gr.11–20",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "fri": {
+          "date": "24/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry Revision Head / Biochemistry -2",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Biochemistry Reading Time -9",
+            "meta": "",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "10_15_11_15": [
+            {
+              "title": "Renal functions",
+              "meta": "SGD — Prof. SDIN & Physiology staff",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Renal handling of water",
+              "meta": "Physiology PD — Prof. SDIN & Physiology staff — Gr.11–20",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Normal and abnormal constituents in urine",
+              "meta": "Biochemistry PD — Prof. HKIP & Biochemistry staff — Gr.1–10",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ]
+        }
+      }
+    },
+    "week_11": {
+      "label": "Week 11",
+      "range": "Mon 27/10/2025 – Fri 31/10/2025",
+      "days": {
+        "mon": {
+          "date": "27/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Eye",
+              "meta": "Clinical Anatomy Lecture — Dr. TU",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Body side tutorial (Group 11–15)",
+              "meta": "All Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Body side tutorial (Group 16–20)",
+              "meta": "All Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [{
+            "title": "Anatomy Reading Time",
+            "meta": "",
+            "tag": "Anatomy",
+            "color": "#800080",
+            "duration": 1
+            }]
+        },
+        "tue": {
+          "date": "28/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Appearance of the brain and spinal cord on imaging",
+              "meta": "Radiology Lecture — Prof. BH",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Clinical correlations of the nervous system",
+              "meta": "Clinical Anatomy Lecture — Prof. MP",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Head and Neck",
+              "meta": "Anatomy Tutorial — Dr. KD & All Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Neuroanatomy Seminar",
+              "meta": "Prof. SBA & All Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "wed": {
+          "date": "29/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry of alcohol metabolism",
+              "meta": "Biochemistry Lecture — Dr. AWDTA",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Biochemistry Reading Time -10",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [{
+            "title": "Biochemistry Reading Time -11",
+            "meta": "",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "13_15_14_15": [{
+            "title": "SGL",
+            "meta": "",
+            "tag": "PPD",
+            "color": "#000000",
+            "duration": 3
+            }],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "thu": {
+          "date": "30/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Spermatogenesis and male sex hormones",
+              "meta": "Physiology Lecture — Prof. SDIN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Ovarian cycle and female sex hormones I",
+              "meta": "Physiology Lecture — Dr. SR",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+
+            {
+              "title": "Physiology Reading Time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry Reading Time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "fri": {
+          "date": "31/10/2025",
+          "08_00_09_00": [
+            {
+              "title": "Biochemistry Revision Head / Biochemistry -3",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Biochemistry Reading Time -12",
+            "meta": "",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "10_15_11_15": [{
+            "title": "Ovarian cycle and female sex hormones II",
+            "meta": "Physiology Lecture — Dr. SR",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 1
+            }],
+          "11_15_12_15": [{
+            "title": "Sexuality and sexual response",
+            "meta": "Physiology Lecture — Prof. AK",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 1
+            }],
+          "13_15_14_15": [{
+            "title": "Physiology Reading Time",
+            "meta": "",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 3
+          },
+          {
+            "title": "Biochemistry Reading Time",
+            "meta": "",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 3
+          }],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        }
+      }
+    },
+    "week_12": {
+      "label": "Week 12",
+      "range": "Mon 03/11/2025 – Fri 07/11/2025",
+      "days": {
+        "mon": {
+          "date": "03/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Neuroanatomy Tutorial",
+              "meta": "Dr. JD & All Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Ear, nose and throat",
+              "meta": "Clinical Anatomy Lecture — Dr. ZW",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [{
+            "title": "Dissection Revision",
+            "meta": "",
+            "tag": "Anatomy",
+            "color": "#800080",
+            "duration": 3
+            }],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "tue": {
+          "date": "04/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Concluding Cadaveric Dissections and Bone preparation",
+              "meta": "Dr. KD & All Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Concluding Cadaveric Dissections and Bone preparation",
+              "meta": "Dr. KD & All Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Anatomy reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "wed": {
+          "date": "05/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "HOLIDAY",
+              "meta": "",
+              "tag": "Holiday",
+              "color": "#A52A2A",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "thu": {
+          "date": "06/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Fertilization, tubal functions, and implantation",
+              "meta": "Physiology Lecture — Dr. DN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Contraceptives",
+            "meta": "Physiology Lecture — Prof. PD",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 1
+            }],
+          "10_15_11_15": [
+            {
+              "title": "Pregnancy",
+              "meta": "Physiology Lecture — Dr. DN",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "Spermatogenesis, male sex hormones, contraceptives, pregnancy",
+              "meta": "Physiology PD — Prof. PD & Physiology staff — Gr.1–10",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry Reading Time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        },
+        "fri": {
+          "date": "07/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Biochemistry Reading Time -13",
+            "meta": "",
+            "tag": "Biochemistry",
+            "color": "#0000FF",
+            "duration": 1
+            }],
+          "10_15_11_15": [
+            {
+              "title": "Parturition, puerperium, and lactation",
+              "meta": "Physiology Lecture — Dr. SR",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [{
+            "title": "Parturition, puerperium, and lactation",
+            "meta": "Physiology Lecture — Head/Gyn. & Obs",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 1
+            }],
+          "13_15_14_15": [
+            {
+              "title": "Spermatogenesis, male sex hormones, contraceptives, pregnancy",
+              "meta": "Physiology PD — Prof. PD & Physiology staff — Gr.11–20",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry Reading Time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {}
+          ],
+          "15_15_16_15": [
+            {}
+          ]
+        }
+      }
+    },
+    "week_13": {
+      "label": "Week 13",
+      "range": "Mon 10/11/2025 – Fri 14/11/2025",
+      "days": {
+        "mon": {
+          "date": "10/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Anatomy Reading Time",
+              "meta": "",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [
+            {
+
+            }
+          ],
+          "10_15_11_15": [
+            {
+              "title": "Mock Spot",
+              "meta": "Dr. JJ & SJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Mock Spot",
+              "meta": "Dr. JJ & SJ & Anatomy staff",
+              "tag": "Anatomy",
+              "color": "#800080",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": []
+        },
+        "tue": {
+          "date": "11/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Hospital Visit - 2",
+              "meta": "Group 11–20",
+              "tag": "PPD",
+              "color": "#808080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Hospital Visit - 2",
+              "meta": "Group 1–10",
+              "tag": "PPD",
+              "color": "#808080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "IAM 1C — CCR-2",
+              "meta": "",
+              "tag": "PPD",
+              "color": "#808080",
+              "duration": 2
+            }
+          ],
+          "14_15_15_15": [],
+          "15_15_16_15": [{
+            "title": "SGL",
+            "meta": "",
+            "tag": "SGL",
+            "color": "#000000",
+            "duration": 1
+            }]
+        },
+        "wed": {
+          "date": "12/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Hospital Visit - 3",
+              "meta": "Group 1–10",
+              "tag": "PPD",
+              "color": "#808080",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Hospital Visit - 3",
+              "meta": "Group 11–20",
+              "tag": "PPD",
+              "color": "#808080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Meet your mentors",
+              "meta": "",
+              "tag": "PPD",
+              "color": "#AC9362",
+              "duration": 1
+            }
+            ],
+          "14_15_15_15": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 2
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "thu": {
+          "date": "13/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Physiology of fetus",
+              "meta": "Physiology Lecture — Dr. SR",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Functional organization of endocrine system; Pituitary & hypothalamus",
+              "meta": "Physiology Lecture — Prof. AK",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Physiology Reading Time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry Reading Time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "fri": {
+          "date": "14/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Hypopituitarism and hyperpituitarism",
+              "meta": "Physiology Lecture — Prof. AK",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [{
+            "title": "Puberty",
+            "meta": "Physiology Lecture — Prof. PD",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 1
+            }],
+          "10_15_11_15": [
+            {
+              "title": "Endocrine pancreas and diabetes mellitus",
+              "meta": "Physiology Lecture — Dr. SR",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+              "title": "Physiology Reading Time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 3
+            },
+            {
+              "title": "Biochemistry Reading Time",
+              "meta": "",
+              "tag": "Biochemistry",
+              "color": "#0000FF",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        }
+      }
+    },
+    "week_14": {
+      "label": "Week 14",
+      "range": "Mon 17/11/2025 – Fri 21/11/2025",
+      "days": {
+        "mon": {
+          "date": "17/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Adrenal cortex and medulla",
+              "meta": "Physiology Lecture — Dr. SR",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Other hormones",
+              "meta": "Physiology Lecture — Dr. SR",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "11_15_12_15": [
+            {
+              "title": "Physiology Reading Time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "tue": {
+          "date": "18/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Thyroid",
+              "meta": "Physiology Lecture — Prof. AK",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "09_00_10_00": [
+            {
+              "title": "Derangement of thyroid function I",
+              "meta": "Physiology Lecture — Prof. AK",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "10_15_11_15": [{
+            "title": "Derangement of thyroid function II",
+            "meta": "Physiology Lecture — Prof. AK",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 1
+            }],
+          "11_15_12_15": [
+            {
+              "title": "Physiology Reading Time",
+              "meta": "",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 1
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "wed": {
+          "date": "19/11/2025",
+          "08_00_09_00": [
+            {
+              "title": "Parathyroid",
+              "meta": "Physiology Lecture — Prof. AK",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "IAM 1C — CCR-3",
+              "meta": "",
+              "tag": "PPD",
+              "color": "#808080",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "thu": {
+          "date": "20/11/2025",
+          "08_00_09_00": [{
+            "title": "Physiology Reading Time",
+            "meta": "",
+            "tag": "Physiology",
+            "color": "#008000",
+            "duration": 2
+            }],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+              "title": "Reproductive and Endocrine Functions",
+              "meta": "SGD — Prof. AK & Physiology staff",
+              "tag": "Physiology",
+              "color": "#008000",
+              "duration": 2
+            }
+          ],
+          "11_15_12_15": [
+            {
+
+            }
+          ],
+          "13_15_14_15": [
+            {
+              "title": "SGL",
+              "meta": "",
+              "tag": "SGL",
+              "color": "#000000",
+              "duration": 3
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        },
+        "fri": {
+          "date": "21/11/2025",
+          "08_00_09_00": [],
+          "09_00_10_00": [],
+          "10_15_11_15": [
+            {
+
+            }
+          ],
+          "11_15_12_15": [],
+          "13_15_14_15": [
+            {
+
+            }
+          ],
+          "14_15_15_15": [
+            {
+
+            }
+          ],
+          "15_15_16_15": [
+            {
+
+            }
+          ]
+        }
+      }
+    }
+  }
+}
